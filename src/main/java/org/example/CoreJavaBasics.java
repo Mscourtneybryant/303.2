@@ -21,6 +21,9 @@ public class CoreJavaBasics {
 
         int theResults = addingNumbers(5,6);
         System.out.println(theResults);
+
+        int myResults= constNumAdd(4 ,0);
+        System.out.println(myResults);
     }
 
     public static int addDoubleNumbers(int a, int b, int c){
@@ -49,6 +52,11 @@ public class CoreJavaBasics {
         return q;
     }
 
+    public static int constNumAdd(int a, int b){
+        float myconst = 3.14f;
+        int mySum = (int) (myconst * (a + b));
+        return mySum;
+    }
 
 
 }
