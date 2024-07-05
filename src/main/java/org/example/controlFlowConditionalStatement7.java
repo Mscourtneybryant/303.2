@@ -31,10 +31,10 @@ public class controlFlowConditionalStatement7 {
                         tax = calculateMarriedFilingJointlyTax(income);
                         break;
                     case 3:
-                        tax = calculateMarriedFilingSeparatelyTax(income);
+                        tax = (income);
                         break;
                     case 4:
-                        tax = calculateHeadOfHouseholdTax(income);
+                        tax = (income);
                         break;
                     default:
                         System.out.println("Invalid choice of filing status.");
